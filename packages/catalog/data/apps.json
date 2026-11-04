@@ -639,6 +639,21 @@
 			"icon": {
 				"file": "nova.webp"
 			}
+		},
+		{
+			"slug": "pudmusic",
+			"name": "PudMusic",
+			"author": "ShellMonster",
+			"kind": "native",
+			"category": "MultimediaApplication",
+			"url": "https://github.com/ShellMonster/PudMusic",
+			"repo": "ShellMonster/PudMusic",
+			"summary": {
+				"en": "MyGo 编写的跨平台桌面音乐播放器，原生 UI，播放 B 站音乐内容和本地音频文件。"
+			},
+			"description": {
+				"en": "MyGo 编写的跨平台桌面音乐播放器，原生 UI，播放 B 站音乐内容和本地音频文件。"
+			}
 		}
 	]
 }
