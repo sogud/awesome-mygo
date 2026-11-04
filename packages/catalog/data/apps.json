@@ -642,16 +642,28 @@
 		},
 		{
 			"slug": "myskills",
-			"name": "myskills",
+			"name": "MySkills",
 			"author": "legibet",
 			"kind": "native",
 			"category": "DeveloperApplication",
 			"url": "https://github.com/legibet/myskills",
 			"summary": {
-				"en": "本地 agent skills 库管理工具，按需在全局和项目启用"
+				"en": "Keeps your agent skills in one private library and enables them per project or globally.",
+				"zh-CN": "把 agent skills 收进一个私人库，按项目或全局启用。",
+				"zh-TW": "把 agent skills 收進一個私人庫，按專案或全域啟用。",
+				"ja": "エージェントスキルを手元のライブラリにまとめ、プロジェクトごとやグローバルに有効化。",
+				"ko": "에이전트 스킬을 개인 라이브러리에 모아 두고 프로젝트별 또는 전역으로 켭니다."
 			},
 			"description": {
-				"en": "本地 agent skills 库管理工具，按需在全局和项目启用"
+				"en": "A desktop app and command line tool for agent skills, its desktop app drawn with MyGo's native UI. Skills live in a private library under ~/.myskills/skills and come from GitHub, any git remote, a local folder or skills.sh. Enabling a skill in a project either links it, kept out of git through .git/info/exclude, or copies it in to be committed, and myskills tells you when a copy is outdated or was edited. It writes to the folders of Universal (.agents/skills, read by Codex, Cursor, Gemini CLI and others), Claude Code, Antigravity and any custom agent you add.",
+				"zh-CN": "管理 agent skills 的桌面应用与命令行工具，桌面版用 MyGo 原生 UI 绘制。skills 存放在 ~/.myskills/skills 下的私人库中，可从 GitHub、任意 git 远程仓库、本地文件夹或 skills.sh 添加。在项目中启用 skill 时，可以创建链接（通过 .git/info/exclude 不纳入 git），也可以复制进项目一同提交，副本落后于库或被改动时 myskills 都会提示。它会写入 Universal（.agents/skills，Codex、Cursor、Gemini CLI 等会读取）、Claude Code、Antigravity 以及你自行添加的 agent 的目录。",
+				"zh-TW": "管理 agent skills 的桌面應用與命令列工具，桌面版以 MyGo 原生 UI 繪製。skills 存放在 ~/.myskills/skills 下的私人庫中，可從 GitHub、任意 git 遠端儲存庫、本機資料夾或 skills.sh 加入。在專案中啟用 skill 時，可以建立連結（透過 .git/info/exclude 不納入 git），也可以複製進專案一同提交，副本落後於庫或被修改時 myskills 都會提示。它會寫入 Universal（.agents/skills，Codex、Cursor、Gemini CLI 等會讀取）、Claude Code、Antigravity 以及你自行加入的 agent 的目錄。",
+				"ja": "エージェントスキルを管理するデスクトップアプリとコマンドラインツールで、デスクトップ版は MyGo のネイティブ UI で描かれています。スキルは ~/.myskills/skills の個人ライブラリに置かれ、GitHub、任意の git リモート、ローカルフォルダー、skills.sh から追加できます。プロジェクトで有効にするときは、.git/info/exclude で git から外したリンクにするか、コミットするためにコピーするかを選べ、コピーがライブラリより古くなったり編集されたりすると知らせてくれます。Universal（.agents/skills。Codex、Cursor、Gemini CLI などが読む）、Claude Code、Antigravity、追加したカスタムエージェントのフォルダーに書き込みます。",
+				"ko": "에이전트 스킬을 관리하는 데스크톱 앱이자 명령줄 도구로, 데스크톱 앱은 MyGo의 네이티브 UI로 그렸습니다. 스킬은 ~/.myskills/skills의 개인 라이브러리에 두며 GitHub, 임의의 git 원격 저장소, 로컬 폴더, skills.sh에서 추가할 수 있습니다. 프로젝트에서 스킬을 켤 때는 .git/info/exclude로 git에서 제외한 링크를 만들거나 함께 커밋할 수 있도록 복사하며, 복사본이 라이브러리보다 오래되었거나 수정되면 알려 줍니다. Universal(.agents/skills, Codex·Cursor·Gemini CLI 등이 읽음), Claude Code, Antigravity, 직접 추가한 에이전트의 폴더에 씁니다."
+			},
+			"screenshot": "myskills.webp",
+			"icon": {
+				"file": "myskills.webp"
 			}
 		}
 	]

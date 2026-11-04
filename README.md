@@ -12,7 +12,7 @@ English · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) ·
 
 ## What is on the site
 
-- **Showcase**: 25 desktop apps built with MyGo. Each has its full description, a screenshot where the project has one, its interface (native UI or web frontend) and its other apps by the same author.
+- **Showcase**: 26 desktop apps built with MyGo. Each has its full description, a screenshot where the project has one, its interface (native UI or web frontend) and its other apps by the same author.
 - **Plugins**: the 11 official plugins, marked by the kind of window they serve (web pages, native UI or both), plus the `mygo-cli` toolchain.
 - **UI components**: component libraries, themes and icons made for MyGo apps.
 - **State**: state management for MyGo apps, beside MyGo's own bound services, channels and typed events.
