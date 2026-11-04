@@ -639,6 +639,20 @@
 			"icon": {
 				"file": "nova.webp"
 			}
+		},
+		{
+			"slug": "myskills",
+			"name": "myskills",
+			"author": "legibet",
+			"kind": "native",
+			"category": "DeveloperApplication",
+			"url": "https://github.com/legibet/myskills",
+			"summary": {
+				"en": "本地 agent skills 库管理工具，按需在全局和项目启用"
+			},
+			"description": {
+				"en": "本地 agent skills 库管理工具，按需在全局和项目启用"
+			}
 		}
 	]
 }
