@@ -639,6 +639,21 @@
 			"icon": {
 				"file": "nova.webp"
 			}
+		},
+		{
+			"slug": "saundo",
+			"name": "Saundo",
+			"author": "4202217",
+			"kind": "native",
+			"category": "UtilitiesApplication",
+			"url": "https://github.com/4202217/saundo",
+			"repo": "4202217/saundo",
+			"summary": {
+				"en": "适用于 Windows 的 Airplay 2 音频推送器。"
+			},
+			"description": {
+				"en": "适用于 Windows 的 Airplay 2 音频推送器。"
+			}
 		}
 	]
 }
